@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins&family=Yusei+Magic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    background-color: #084A07;
+}
+
+body::before {
+    content: "";
+    width: 550px;
+    height: 700px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url("../img/dragon.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom: 310px;
+}
+
+.nav-title {
+    font-family: Alfa Slab One;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-list {
+    display: flex;
+    gap: 34px;
+}
+
+.nav-list a {
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main {
+    color: #fff;
+}
+
+.main h2 {
+    font-family: Alfa Slab One;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-shrink: 0;
+}
+
+.main button {
+    text-align: center;
+    margin-top: 25px;
+    padding: 17px 107px;
+    border-radius: 40px;
+    border: none;
+}
+
+.main button a {
+    color: #175015;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
